@@ -1,0 +1,127 @@
+
+html{
+  font-size: 62.5%;
+}
+.containers {
+    width: 100%;
+    padding: 2rem;
+  }
+  .container {
+      display: flex;
+      
+      background-color: #F5F5F5;
+      
+      
+    }
+    
+    .main{
+      
+    }
+    .left-side {
+     width: 38.2%;
+     
+     background-color: black;
+
+    }
+    
+    .right-side {
+     width: auto;
+     height: auto;
+    background-color: #F5F5F5;
+   
+    align-items: center;
+   margin: auto;
+    
+    
+     
+    }
+  
+    .formcontainer{
+ width: 38.5rem;
+  height: 31.7rem;
+    }
+  
+    .auth{
+    width:18.0rem ;
+    height: 3.0rem !important;
+    background-color: white;
+    margin-right: 1.2rem;
+    text-align: center;
+    border-radius: 2.4rem;
+    flex: auto;
+    align-items: center;
+    }
+  
+    .auth > div > svg{
+      margin: .8rem 0rem .8rem 1.9rem !important;
+  
+      width: 1.8rem;
+      height: 1.8rem;
+      align-items: center !important ;
+      display: inline-flex;
+  
+    }
+    .auth {
+      height: 3.0rem !important;
+      border-radius: 1.0rem !important;
+      box-shadow: 0rem 0rem 0rem 0rem rgba(0, 0 , 0, 0 ) !important;
+    
+      
+    }
+  
+    
+    .auth > span{
+      font-size: 1.2rem !important;
+      font-weight: 40rem;
+      font-family: 'Montserrat', sans-serif;
+      
+    }
+  
+    .auth > div{
+      height: 3.0rem !important;
+      border-radius: 1.0rem !important;
+      padding: 0rem !important;
+  
+    }
+  
+    .apple-button{
+      height: 3.0rem;
+      width: 18.0rem;
+      font-size: 1.3rem ;
+      font-weight: 40.0;
+      font-family: 'Montserrat', sans-serif;
+      padding-top: .8rem;
+      padding-bottom: .8rem;
+      border-radius: 1.2rem;
+      display: inline-flex;
+      align-items: center;
+      background-color: white;
+    }
+
+    .input{
+
+      width: 32.5rem;
+      height: 4rem;
+
+    }
+    .form-content{
+      place-content: start;
+      margin-left: 3rem;
+      margin-top: 3rem;
+    }
+
+    .heading{
+
+      font-family: lato ;
+      font-weight: 400;
+      font-size: 1.6rem;
+
+    }
+  
+    @media (max-width:480px) {
+      .left-side{
+        width: 100%;
+       
+      }
+    }
+    
